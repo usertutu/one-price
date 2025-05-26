@@ -41,7 +41,6 @@ const routePath = useRoutePath()
 
   padding-top: calc(var(--navbar-height) + 1rem) !important;
   padding-bottom: 0 !important;
-  font-size: 0.875em;
 
   .route-link {
     color: inherit;
@@ -59,9 +58,7 @@ const routePath = useRoutePath()
 
     cursor: pointer;
 
-    transition:
-      background 0.3s,
-      color 0.3s;
+    transition: background 0.3s, color 0.3s;
 
     @media (max-width: 419px) {
       font-size: 0.9rem;
