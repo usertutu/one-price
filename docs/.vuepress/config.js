@@ -7,8 +7,8 @@ export default defineUserConfig({
   base: "/one-price/",
   lang: 'en-US',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'OnePrice',
+  description: '--',
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
@@ -24,11 +24,11 @@ export default defineUserConfig({
         link: '/category/',
       },
       {
-        text: 'Tag',
+        text: '文章',
         link: '/tag/',
       },
       {
-        text: 'Timeline',
+        text: '时间线',
         link: '/timeline/',
       },
     ],

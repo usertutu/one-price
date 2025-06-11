@@ -1,7 +1,7 @@
 <script setup>
 import { useBlogType } from '@vuepress/plugin-blog/client'
 import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
-import ArticleList from '../components/ArticleList.vue'
+import ArticleList from '../components/MarkDown.vue'
 
 const timelines = useBlogType('timeline')
 </script>
@@ -9,11 +9,7 @@ const timelines = useBlogType('timeline')
 <template>
   <ParentLayout>
     <template #page>
-      <main class="page">
-        <h1 class="timeline-title">Timeline</h1>
-
-        <ArticleList :items="timelines.items" is-timeline />
-      </main>
+      <ArticleList />
     </template>
   </ParentLayout>
 </template>

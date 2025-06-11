@@ -11,5 +11,6 @@ export default defineClientConfig({
     Category,
     Tag,
     Timeline,
+  
   },
 })
